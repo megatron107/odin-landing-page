@@ -188,5 +188,15 @@ h1 {
 
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 20px;
+}
 
 
