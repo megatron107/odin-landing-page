@@ -141,3 +141,52 @@ h1 {
     font-weight: 900;
 }
 
+.four {
+    background-color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+}
+
+.four-inner {
+    background-color: #3882F6;
+    color: #FFFF;
+    padding: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    border-radius: 10px;
+}
+
+.bottom-button {
+    border-radius: 8px;
+    padding: 6px 25px;
+    background-color: #3882F6;
+    color: #FFFF;
+    border-color: #FFFF;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.inner-inner-two {
+    display: flex;
+    justify-content: center;
+}
+
+.action-header {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.subtext-four {
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+
+
