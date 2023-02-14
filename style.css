@@ -8,9 +8,7 @@ body {
 }
 
 .big {
-    height: 200px;
-    padding: 0px;
-    margin: 0px;
+    width: 350px;
 }
 
 .top {
@@ -34,10 +32,9 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 300px;
-    gap: 30px;
-    padding: 20px 80px 50px 80px;
+    gap: 50px;
+    padding: 80px 80px 80px 80px;
+    flex-wrap: wrap;
 
 }
 
@@ -53,17 +50,19 @@ ul {
 }
 
 .hero-left {
-    width: 50%;
-    min-height: 200px;
-    flex: 1 1 auto;
+    display: flex;
+    direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 350px;
 }
 
 .hero-right {
-    width: 50%;
-    min-height: 200px;
-    flex: 1 1 auto;
+    width: 350px;
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    direction: column;
 }
 
 h1 {
@@ -101,8 +100,8 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 25px;
-    flex-wrap: nowrap;
-    margin-bottom: 80px;
+    flex-wrap: wrap;
+    margin: 0px 80px 50px 50px;
 }
 
 .img-text {
